@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import ClarifyNode from "../src/nodes/clarify";
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
         </header>
 
         <div>Internet</div>
-        <div>Clarify</div>
+        <ClarifyNode />
         <div>Node 1</div>
         <div>Node 1</div>
       </div>
